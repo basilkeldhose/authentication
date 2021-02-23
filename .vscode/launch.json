@@ -1,0 +1,79 @@
+{
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "Post Share:controllers/register.controller.authenticate (nodejs14.x)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "backend",
+                "lambdaHandler": "controllers/register.controller.authenticate"
+            },
+            "lambda": {
+                "runtime": "nodejs14.x",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        },
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "Post Share:controllers/register.controller.authenticate (nodejs14.x)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "backend",
+                "lambdaHandler": "controllers/register.controller.authenticate"
+            },
+            "lambda": {
+                "runtime": "nodejs14.x",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        },
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "Post Share:controllers/register.controller.userProfile (nodejs12.x)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "backend",
+                "lambdaHandler": "controllers/register.controller.userProfile"
+            },
+            "lambda": {
+                "runtime": "nodejs12.x",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        },
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "Post Share:config/jwt.verifyJwtToken (nodejs14.x)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "backend",
+                "lambdaHandler": "config/jwt.verifyJwtToken"
+            },
+            "lambda": {
+                "runtime": "nodejs14.x",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        },
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "Post Share:config/jwt.verifyJwtToken (nodejs12.x)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "backend",
+                "lambdaHandler": "config/jwt.verifyJwtToken"
+            },
+            "lambda": {
+                "runtime": "nodejs12.x",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        }
+    ]
+}
