@@ -1,6 +1,6 @@
 {
     "development": {
-        "JWT_SECRET": "SECRET#123",
+        "JWT_SECRET": "QHhpZGlvCg==",
         "JWT_EXP": "2m"
     }
 }
